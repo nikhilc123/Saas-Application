@@ -1,0 +1,9 @@
+#Config for Sidekiq
+
+#no of threads per sidekiq process, default is 25 
+:concurrency: 5
+#tells sidekiq which redis queue it should check for jobs, by default checks default but we add one more mailer
+#queuename, weight {weight indicate that it will check 5times more than with weight=1}
+:queues:
+ - [mailer, 5]
+ - [default, 5]

@@ -28,6 +28,8 @@ gem 'devise'
 #Print ruby objects in color
 gem 'awesome_print'
 
+#Sidekiq for background process
+gem 'sidekiq'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
