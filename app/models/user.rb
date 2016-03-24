@@ -7,10 +7,10 @@ class User < ActiveRecord::Base
   validate :email_is_unique, on: :create
   after_create :create_account
  
-         
-  def confirmation_required?
-    false
-  end
+  #Commented because we want confirmation to be sent to gmail account       
+  # def confirmation_required?
+  #   false
+  # end
   
   #Create an account, everytime, a new user is created
   def create_account
