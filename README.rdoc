@@ -1,1 +1,1 @@
-Ruby on Rails application
+Multi-tenant Saas application using Ruby on Rails
