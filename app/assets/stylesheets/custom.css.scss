@@ -1,6 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "subscriptions";
 
 body{
   padding: 20px;
+}
+
+.exp-field {
+  display: inline-block;
+  width: 100px;
 }

@@ -4,8 +4,8 @@ if Rails.env.development?
   address:              'smtp.gmail.com',
   port:                 587,
   domain:               'multi-saas.herokuapp.com',
-  user_name:            ENV["GMAIL_USERNAME"],
-  password:             ENV["GMAIL_PASSWORD"],
+  user_name:            'mygmailpassword',
+  password:             'mygmailpassword',
   authentication:       'plain',
   enable_starttls_auto: true  }
 
